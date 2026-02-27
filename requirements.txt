@@ -1,0 +1,32 @@
+# Python 3.10.7
+
+# Web Framework
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+
+# LangChain — latest versions (as of Feb 2026)
+langchain==1.2.10
+langchain-core==1.2.16
+langchain-community==0.4.1
+langchain-text-splitters==1.1.1
+langchain-google-genai==4.1.3
+
+# Google GenAI SDK (required by langchain-google-genai>=4.0.0, replaces google-generativeai)
+google-genai>=1.0.0
+
+# Vector Store
+faiss-cpu>=1.8.0
+
+# Document Parsing
+docling>=1.16.0
+
+# Semantic Similarity
+sentence-transformers>=3.0.0
+scikit-learn>=1.4.0
+
+# Environment
+python-dotenv>=1.0.0
+
+# Pydantic
+pydantic>=2.6.0

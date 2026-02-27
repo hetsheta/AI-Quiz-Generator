@@ -1,0 +1,24 @@
+# ── Environment variables — never commit these ──
+.env
+backend/core/.env
+
+# ── FAISS vector index (auto-generated) ──
+faiss_index/
+backend/faiss_index/
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+
+# ── IDEs ──
+.vscode/
+.idea/
+.antigravity/

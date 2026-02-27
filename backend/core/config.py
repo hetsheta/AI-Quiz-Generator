@@ -1,0 +1,4 @@
+VECTOR_DB_PATH = "faiss_index"
+
+CHUNK_SIZE = 900
+CHUNK_OVERLAP = 200
