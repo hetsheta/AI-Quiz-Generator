@@ -89,13 +89,13 @@ pip install -r requirements.txt
 
 ### 4. Set up your API key
 
-Copy the example env file into `backend/core/` and add your Google AI API key:
+Create a `.env` file inside `backend/core/` and add your Google AI API key:
 
 ```bash
-cp .env.example backend/core/.env
+touch backend/core/.env
 ```
 
-Then open `backend/core/.env` and fill in your key:
+Then open `backend/core/.env` and add the following:
 
 ```
 GOOGLE_API_KEY=your-google-api-key-here
